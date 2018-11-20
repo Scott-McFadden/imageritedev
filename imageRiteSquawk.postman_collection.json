@@ -1,0 +1,212 @@
+{
+	"variables": [],
+	"info": {
+		"name": "imageRiteSquawk",
+		"_postman_id": "6beaaab4-b21c-c2c5-32f5-9b132ea44ff3",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "squawk Search For One",
+			"request": {
+				"url": "http://localhost:3001/squawk",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/xml",
+						"description": "",
+						"disabled": true
+					},
+					{
+						"key": "Accept",
+						"value": "application/text",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"title\" : \"test4\",\n\t\"content\" : \"two\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "squawk update",
+			"request": {
+				"url": "http://localhost:3001/squawk/5bf376e28c7d982ea49e55f7",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/xml",
+						"description": "",
+						"disabled": true
+					},
+					{
+						"key": "Accept",
+						"value": "application/text",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"title\" : \"test420\",\n\t\"content\" : \"blaze it\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Squawk delete",
+			"request": {
+				"url": "http://localhost:3001/squawk/5bf3743eb7ec2a550458087d",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/xml",
+						"description": "",
+						"disabled": true
+					},
+					{
+						"key": "Accept",
+						"value": "application/text",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"title\" : \"test42\",\n\t\"content\" : \"this be test\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Squawk Get by id",
+			"request": {
+				"url": "http://localhost:3001/squawk/5bf376e28c7d982ea49e55f7",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/xml",
+						"description": "",
+						"disabled": true
+					},
+					{
+						"key": "Accept",
+						"value": "application/text",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "squawk save",
+			"request": {
+				"url": "http://localhost:3001/squawk",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/xml",
+						"description": "",
+						"disabled": true
+					},
+					{
+						"key": "Accept",
+						"value": "application/text",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"title\" : \"test4\",\n\t\"content\" : \"two\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "squawk Search (for many)",
+			"request": {
+				"url": "http://localhost:3001/squawk/search",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/xml",
+						"description": "",
+						"disabled": true
+					},
+					{
+						"key": "Accept",
+						"value": "application/text",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"content\" : \"two\" \n \n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Squawk Get All",
+			"request": {
+				"url": "http://localhost:3001/squawk/5bf376e28c7d982ea49e55f7",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/xml",
+						"description": "",
+						"disabled": true
+					},
+					{
+						"key": "Accept",
+						"value": "application/text",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

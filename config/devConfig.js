@@ -24,9 +24,9 @@ module.exports =
             }
         ],
         mongo: {
-            URI: 'mongodb://localhost/squawk',
-            user: 'none',
-            password: 'none'
+            URI: 'mongodb://<dbuser>:<dbpassword>@ds141889.mlab.com:41889/imageritedev',
+            user: 'imagerite',
+            password: 'XSW234rfv'
         },
         stripe: {
             stripePublishableKey: 'pk_test_ksHrRjHp0C8EYzcC5lInR8wC',
