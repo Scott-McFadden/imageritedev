@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d127285-fe39-430a-88e8-e91aab2e5255" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/imageRiteSquawk.postman_collection.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/routeConfigurations.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/routeGenericDocument.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/devConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/devConfig.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/qaConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/qaConfig.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,7 +26,7 @@
         <counts>
           <entry key="gitignore" value="1" />
           <entry key="html" value="1" />
-          <entry key="js" value="25" />
+          <entry key="js" value="27" />
           <entry key="json" value="3" />
           <entry key="md" value="1" />
           <entry key="null/squawk/announcements" value="8" />
@@ -42,7 +40,7 @@
         <counts>
           <entry key="HTML" value="1" />
           <entry key="JSON" value="3" />
-          <entry key="JavaScript" value="26" />
+          <entry key="JavaScript" value="28" />
           <entry key="MONGO" value="9" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
@@ -54,7 +52,7 @@
         <counts>
           <entry key="JavaScript Console" value="2" />
           <entry key="gitignore" value="6" />
-          <entry key="js" value="5594" />
+          <entry key="js" value="5724" />
           <entry key="json" value="2" />
           <entry key="txt" value="64" />
           <entry key="www" value="1" />
@@ -63,7 +61,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="2" />
-          <entry key="JavaScript" value="5597" />
+          <entry key="JavaScript" value="5727" />
           <entry key="PLAIN_TEXT" value="33" />
           <entry key="Scratch" value="37" />
         </counts>
@@ -141,8 +139,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/config/devConfig.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="272">
-                  <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+                <state relative-caret-position="935">
+                  <caret line="55" lean-forward="true" selection-start-line="1" selection-end-line="55" />
                 </state>
               </provider>
             </entry>
@@ -162,11 +160,29 @@
                   </provider>
                 </entry>
               </file>
-              <file pinned="false" current-in-tab="true">
+              <file pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/routes/routeGenericDocument.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="186">
-                      <caret line="103" column="20" selection-start-line="103" selection-start-column="20" selection-end-line="103" selection-end-column="20" />
+                    <state relative-caret-position="424">
+                      <caret line="117" lean-forward="true" selection-start-line="117" selection-end-line="117" />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/config/qaConfig.js">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="373">
+                      <caret line="50" column="33" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/config/keys.js">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="153">
+                      <caret line="9" column="27" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="27" />
                     </state>
                   </provider>
                 </entry>
@@ -222,7 +238,6 @@
         <option value="$PROJECT_DIR$/config/keys.js.ts" />
         <option value="$PROJECT_DIR$/config/devconfig.js" />
         <option value="$PROJECT_DIR$/config/stgConfig.js" />
-        <option value="$PROJECT_DIR$/config/qaConfig.js" />
         <option value="$PROJECT_DIR$/config/keys.js" />
         <option value="$PROJECT_DIR$/config/prodConfig.js" />
         <option value="$PROJECT_DIR$/squwack/sqwackRoutes.js" />
@@ -241,6 +256,7 @@
         <option value="$PROJECT_DIR$/config/devConfig.js" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.txt" />
         <option value="$PROJECT_DIR$/routes/routeGenericDocument.js" />
+        <option value="$PROJECT_DIR$/config/qaConfig.js" />
       </list>
     </option>
   </component>
@@ -350,7 +366,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542487455679</updated>
-      <workItem from="1542487457170" duration="28629000" />
+      <workItem from="1542487457170" duration="30072000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1542565775626</created>
@@ -373,11 +389,18 @@
       <option name="project" value="LOCAL" />
       <updated>1542683660693</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="squawk works">
+      <created>1542732783167</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1542732783167</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28629000" />
+    <option name="totallyTimeSpent" value="30072000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -390,6 +413,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="2576" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="npm" order="1" sideWeight="0.5011013" side_tool="true" weight="0.25" />
@@ -489,21 +513,11 @@
     <entry file="file://$PROJECT_DIR$/config/stgConfig.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/qaConfig.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/keys.js.ts">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/config/prodConfig.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/keys.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/morgan/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -584,13 +598,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/devConfig.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/routeConfigurations.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -628,8 +635,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/routeGenericDocument.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="103" column="20" selection-start-line="103" selection-start-column="20" selection-end-line="103" selection-end-column="20" />
+        <state relative-caret-position="424">
+          <caret line="117" lean-forward="true" selection-start-line="117" selection-end-line="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/devConfig.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="55" lean-forward="true" selection-start-line="1" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/keys.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/qaConfig.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="50" column="33" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
         </state>
       </provider>
     </entry>

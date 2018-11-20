@@ -48,6 +48,6 @@ module.exports =
             adminUrl: '/admin'
         },
 
-        morganLoggerMode: proces.env.MORGAN_LOG_MODE || 'dev'
+        morganLoggerMode: process.env.MORGAN_LOG_MODE || 'dev'
 
     };
