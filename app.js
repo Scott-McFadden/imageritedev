@@ -5,6 +5,7 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 var keys = require('./config/keys');
 var bodyParser = require('body-parser');
+var cors = require('cors');
 
 require('datejs');
 
@@ -51,8 +52,6 @@ let db = mongoose.connect(mongoURI, { useNewUrlParser: true })
         }
     );
 
-
-
 //########################
 //#
 //# App Setup
@@ -61,6 +60,7 @@ let db = mongoose.connect(mongoURI, { useNewUrlParser: true })
 var app = express();
 
 app.use(logger(keys.morganLoggerMode));
+app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
