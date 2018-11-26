@@ -79,6 +79,6 @@ app.use('/users', usersRouter);
 require('./routes/routeConfigurations')(app);
 require('./routes/routeGenericDocument')(app,  '/KeyValueSetsAPI','keyValueSets');
 require('./routes/routeGenericDocument')(app,  '/squawk','announcements');
-
+require('./routes/routeSquawk')(app);
 
 module.exports = app;

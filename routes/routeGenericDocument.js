@@ -114,4 +114,18 @@ module.exports = (app, ROUTE, MODELNAME) => {
             }
         });
 
+    app.route(ROUTE + '/sort/:way')
+        .get( async (req,res) =>
+        {
+            try {
+
+
+                const output = await model.find({}).sort(req.params.way);
+                // console.log("output",output);
+                res.send(output);
+
+            } catch (err) {
+                res.status(422).send(err);
+            }
+        })
 }

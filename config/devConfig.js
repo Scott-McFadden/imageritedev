@@ -41,8 +41,8 @@ module.exports =
         cookieKey: 'ThisIsSqwackkujhgdgxcgfvewraatgrewrythtrtartwrtyuioplkjhgfdxcvbnmjhgfdrty76543',
 
 
-        baseServerURL: 'http://localhost:5000',
-        baseClientURL: 'http://localhost:3000',
+        baseServerURL: 'http://localhost:3015',
+        baseClientURL: 'http://localhost:3004',
 
         contact: {
             adminEmail:  'dp1mcfadden@gmail.com',

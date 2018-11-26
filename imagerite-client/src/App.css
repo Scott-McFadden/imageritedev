@@ -30,3 +30,9 @@
     transform: rotate(360deg);
   }
 }
+
+.card-action-update {
+  margin-right: 124px;
+  transition: color .3s ease;
+  text-transform: uppercase;
+}

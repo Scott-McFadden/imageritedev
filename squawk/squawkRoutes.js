@@ -43,8 +43,10 @@ module.exports = (app) =>
     .get( async (req,res) =>
     {
         try {
+            console.log('sort');
             const output = await Announcements.find({});
-            res.send(output);
+            const out2 =  output.sort({ priority: 'ascending'});
+            res.send(out2);
 
         } catch (err) {
             res.status(422).send(err);

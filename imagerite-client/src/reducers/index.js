@@ -1,5 +1,5 @@
 import { combineReducers } from 'redux';
-import squawkReducer from './squawk';
+import squawks from './squawkReducers';
 export default combineReducers ({
-    squawk: squawkReducer
+    squawks
 });
