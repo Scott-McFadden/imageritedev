@@ -76,7 +76,7 @@ module.exports = (app, ROUTE, MODELNAME) => {
             }
         })
         .post( async (req, res) => {
-            //console.log("Post Body:", req.body);
+            console.log("Post Body:", req.body);
 
             const output = new model(req.body);
             try {

@@ -49,8 +49,10 @@ class SquawkItem extends React.Component  {
            <div className="row">
                <div className={this.boxColor} onClick={()=> this.props.dispatch(selectSquawk(this.props.item))}>
                    <div className={this.textContent}>
-                       <span className={this.textTitle} style={{display: 'inline '}}><b>{this.props.item.title}</b></span>
-                       <span class="right" style={{display: 'inline '}}>{new Date(this.props.item.createdOn).toDateString()}</span>
+                       <span className={this.textTitle}
+                             style={{display: 'inline '}}><Icon>{this.props.item.iconName || ''}</Icon><b>{this.props.item.title}</b></span>
+                       <span className="right"
+                             style={{display: 'inline '}}>{new Date(this.props.item.createdOn).toDateString()}</span>
 
                        <p>{this.props.item.content}</p>
                    </div>

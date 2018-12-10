@@ -2,37 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d127285-fe39-430a-88e8-e91aab2e5255" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/imagerite-client/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagerite-client/public/stylesheets/materialize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagerite-client/src/actions/squawkActions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagerite-client/src/components/SquawkItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagerite-client/src/components/SquawkList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagerite-client/src/config/keys.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagerite-client/src/config/prodConfig.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagerite-client/src/config/qaConfig.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagerite-client/src/config/stgConfig.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagerite-client/src/reducers/squawkReducers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagerite-client/src/services/GeneralServices.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagerite-client/src/services/squawkOperations.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagerite-client/src/types/SquawkTypes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/routeSquawk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagerite-client/src/components/AddSquawk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagerite-client/src/components/FormModal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagerite-client/src/components/IconButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagerite-client/src/components/IconSelector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagerite-client/src/forms/AddSquawkForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagerite-client/src/services/materialIconsList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/devConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/devConfig.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/imagerite-client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/imagerite-client/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/imagerite-client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/imagerite-client/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/imagerite-client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/imagerite-client/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagerite-client/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/imagerite-client/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagerite-client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/imagerite-client/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagerite-client/src/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/imagerite-client/src/actions/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagerite-client/src/actions/types.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagerite-client/src/Root.js" beforeDir="false" afterPath="$PROJECT_DIR$/imagerite-client/src/Root.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagerite-client/src/actions/squawkActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/imagerite-client/src/actions/squawkActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagerite-client/src/components/SquawkItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/imagerite-client/src/components/SquawkItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagerite-client/src/components/SquawkList.js" beforeDir="false" afterPath="$PROJECT_DIR$/imagerite-client/src/components/SquawkList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/imagerite-client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/imagerite-client/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/imagerite-client/src/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/imagerite-client/src/reducers/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagerite-client/src/reducers/squawk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagerite-client/src/reducers/squawkReducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/imagerite-client/src/reducers/squawkReducers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagerite-client/src/services/squawkOperations.js" beforeDir="false" afterPath="$PROJECT_DIR$/imagerite-client/src/services/squawkOperations.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagerite-client/src/types/SquawkTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/imagerite-client/src/types/SquawkTypes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/routeGenericDocument.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/routeGenericDocument.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/squawk/squawkRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/squawk/squawkRoutes.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -54,14 +43,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="9" />
+          <entry key="css" value="10" />
           <entry key="development" value="5" />
           <entry key="gitignore" value="3" />
-          <entry key="html" value="6" />
-          <entry key="js" value="75" />
+          <entry key="html" value="7" />
+          <entry key="js" value="92" />
           <entry key="json" value="10" />
           <entry key="material-css" value="1" />
-          <entry key="md" value="4" />
+          <entry key="md" value="5" />
           <entry key="null/squawk/announcements" value="8" />
           <entry key="null/squawk/configurations" value="1" />
           <entry key="styl" value="1" />
@@ -72,12 +61,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="9" />
-          <entry key="HTML" value="6" />
+          <entry key="CSS" value="10" />
+          <entry key="HTML" value="7" />
           <entry key="JSON" value="10" />
-          <entry key="JavaScript" value="77" />
+          <entry key="JavaScript" value="94" />
           <entry key="MONGO" value="9" />
-          <entry key="Markdown" value="4" />
+          <entry key="Markdown" value="5" />
           <entry key="PLAIN_TEXT" value="8" />
           <entry key="Scratch" value="1" />
           <entry key="Stylus" value="1" />
@@ -91,9 +80,9 @@
           <entry key="development" value="45" />
           <entry key="gitignore" value="6" />
           <entry key="html" value="16" />
-          <entry key="js" value="10425" />
+          <entry key="js" value="26243" />
           <entry key="json" value="194" />
-          <entry key="txt" value="141" />
+          <entry key="txt" value="181" />
           <entry key="www" value="1" />
         </counts>
       </usages-collector>
@@ -102,8 +91,8 @@
           <entry key="CSS" value="111" />
           <entry key="HTML" value="16" />
           <entry key="JSON" value="194" />
-          <entry key="JavaScript" value="10428" />
-          <entry key="PLAIN_TEXT" value="78" />
+          <entry key="JavaScript" value="26246" />
+          <entry key="PLAIN_TEXT" value="118" />
           <entry key="Scratch" value="114" />
         </counts>
       </usages-collector>
@@ -115,7 +104,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.3952125">
+    <splitter split-orientation="horizontal" split-proportion="0.3307279">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
@@ -131,16 +120,28 @@
             <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="102">
-                  <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+                  <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/models/Announcements.js">
+            <entry file="file://$PROJECT_DIR$/imagerite-client/src/types/SquawkTypes.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="159">
-                  <caret line="10" column="11" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="11" />
+                <state relative-caret-position="238">
+                  <caret line="14" column="52" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="52" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/imagerite-client/src/components/IconSelector.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="323">
+                  <caret line="73" column="13" lean-forward="true" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -148,29 +149,32 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/imagerite-client/src/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="272">
-                  <caret line="16" selection-start-line="16" selection-end-line="16" />
+                <state relative-caret-position="221">
+                  <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/imagerite-client/src/actions/squawkActions.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="255">
+                  <caret line="81" column="58" selection-start-line="81" selection-start-column="58" selection-end-line="81" selection-end-column="58" />
                   <folding>
-                    <element signature="e#1#27#0" expanded="true" />
+                    <element signature="e#0#129#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/squawk/squawkRoutes.js">
+            <entry file="file://$PROJECT_DIR$/imagerite-client/src/components/SquawkList.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="703">
-                  <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/routes/routeSquawk.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="153">
-                  <caret line="9" column="31" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="31" />
+                <state relative-caret-position="544">
+                  <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -184,8 +188,8 @@
               <file pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/imagerite-client/src/App.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="204">
-                      <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+                    <state relative-caret-position="149">
+                      <caret line="10" column="16" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="16" />
                       <folding>
                         <element signature="e#1#42#0" expanded="true" />
                       </folding>
@@ -194,49 +198,52 @@
                 </entry>
               </file>
               <file pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/imagerite-client/src/components/SquawkList.js">
+                <entry file="file://$PROJECT_DIR$/imagerite-client/public/index.html">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="425">
-                      <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+                    <state relative-caret-position="372">
+                      <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/imagerite-client/src/components/IconButton.js">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="102">
+                      <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
                       <folding>
-                        <element signature="e#0#26#0" expanded="true" />
+                        <element signature="e#0#47#0" expanded="true" />
                       </folding>
                     </state>
                   </provider>
                 </entry>
               </file>
               <file pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/routes/routeGenericDocument.js">
+                <entry file="file://$PROJECT_DIR$/imagerite-client/src/reducers/squawkReducers.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="373">
-                      <caret line="128" column="13" lean-forward="true" selection-start-line="126" selection-start-column="13" selection-end-line="128" selection-end-column="13" />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/imagerite-client/public/index.html">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="136">
-                      <caret line="26" column="46" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/app.js">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="339">
-                      <caret line="73" column="26" lean-forward="true" selection-start-line="73" selection-start-column="26" selection-end-line="73" selection-end-column="26" />
+                    <state relative-caret-position="221">
+                      <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
                     </state>
                   </provider>
                 </entry>
               </file>
               <file pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/imagerite-client/src/forms/AddSquawkForm.js">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="-357">
+                      <caret line="6" column="21" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="21" />
+                      <folding>
+                        <element signature="e#0#27#0" expanded="true" />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/imagerite-client/src/components/SquawkItem.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="296">
-                      <caret line="52" column="105" lean-forward="true" selection-start-line="52" selection-start-column="105" selection-end-line="52" selection-end-column="105" />
+                    <state relative-caret-position="557">
+                      <caret line="51" column="131" selection-start-line="51" selection-start-column="131" selection-end-line="51" selection-end-column="131" />
                       <folding>
                         <element signature="e#0#26#0" expanded="true" />
                       </folding>
@@ -245,33 +252,28 @@
                 </entry>
               </file>
               <file pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/imagerite-client/src/config/qaConfig.js">
+                <entry file="file://$PROJECT_DIR$/imagerite-client/src/services/materialIconsList.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="51">
-                      <caret line="3" column="41" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="41" />
+                    <state relative-caret-position="187">
+                      <caret line="11" column="16" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="16" />
                     </state>
                   </provider>
                 </entry>
               </file>
               <file pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/imagerite-client/.env">
+                <entry file="file://$PROJECT_DIR$/models/Announcements.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="51">
-                      <caret line="3" selection-start-line="3" selection-end-line="3" />
+                    <state relative-caret-position="595">
+                      <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
                     </state>
                   </provider>
                 </entry>
               </file>
               <file pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/../tutorial1/client/package.json">
-                  <provider selected="true" editor-type-id="text-editor" />
-                </entry>
-              </file>
-              <file pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/imagerite-client/src/config/prodConfig.js">
+                <entry file="file://$PROJECT_DIR$/imagerite-client/public/stylesheets/materialize.css">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="119">
-                      <caret line="7" selection-start-line="3" selection-end-line="7" />
+                    <state relative-caret-position="120">
+                      <caret line="3401" column="26" selection-start-line="3401" selection-start-column="26" selection-end-line="3401" selection-end-column="26" />
                     </state>
                   </provider>
                 </entry>
@@ -280,20 +282,12 @@
           </split-first>
           <split-second>
             <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-              <file pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/../tutorial1/client/.env.development">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="17">
-                      <caret line="1" selection-start-line="1" selection-end-line="1" />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
               <file pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/imagerite-client/src/actions/squawkActions.js">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="-616">
-                      <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+                <entry file="file://$PROJECT_DIR$/imagerite-client/README.md">
+                  <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                    <state split_layout="SPLIT">
+                      <first_editor relative-caret-position="-27" />
+                      <second_editor />
                     </state>
                   </provider>
                 </entry>
@@ -313,10 +307,19 @@
                 </entry>
               </file>
               <file pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/imagerite-client/src/reducers/index.js">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="17">
+                      <caret line="1" column="52" selection-start-line="1" selection-start-column="52" selection-end-line="1" selection-end-column="52" />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/imagerite-client/src/services/squawkOperations.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="238">
-                      <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+                    <state relative-caret-position="478">
+                      <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
                       <folding>
                         <element signature="e#0#26#0" expanded="true" />
                       </folding>
@@ -328,7 +331,7 @@
                 <entry file="file://$PROJECT_DIR$/imagerite-client/src/App.css">
                   <provider selected="true" editor-type-id="text-editor">
                     <state relative-caret-position="561">
-                      <caret line="33" column="21" lean-forward="true" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+                      <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
                     </state>
                   </provider>
                 </entry>
@@ -369,13 +372,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../tutorial1/index.js" />
-        <option value="$PROJECT_DIR$/config/keys.js.ts" />
-        <option value="$PROJECT_DIR$/config/devconfig.js" />
-        <option value="$PROJECT_DIR$/config/stgConfig.js" />
-        <option value="$PROJECT_DIR$/config/keys.js" />
-        <option value="$PROJECT_DIR$/squwack/sqwackRoutes.js" />
-        <option value="$PROJECT_DIR$/squawk/sqwackRoutes.js" />
         <option value="$PROJECT_DIR$/bin/www" />
         <option value="$PROJECT_DIR$/node_modules/Configurations.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
@@ -389,36 +385,44 @@
         <option value="$PROJECT_DIR$/imagerite-client/node_modules/react-scripts/scripts/start.js" />
         <option value="$PROJECT_DIR$/imagerite-client/src/actions/types.js" />
         <option value="$PROJECT_DIR$/imagerite-client/src/reducers/squawk.js" />
-        <option value="$PROJECT_DIR$/imagerite-client/src/Root.js" />
-        <option value="$PROJECT_DIR$/imagerite-client/src/types/SquawkTypes.js" />
         <option value="$PROJECT_DIR$/imagerite-client/src/actions/index.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/config/devConfig.js" />
         <option value="$PROJECT_DIR$/imagerite-client/src/config/qaConfig.js" />
         <option value="$PROJECT_DIR$/imagerite-client/src/config/stgConfig.js" />
-        <option value="$PROJECT_DIR$/imagerite-client/src/reducers/squawkReducers.js" />
         <option value="$PROJECT_DIR$/imagerite-client/components/SquawkItem.js" />
         <option value="$PROJECT_DIR$/imagerite-client/src/services/GeneralServices.js" />
-        <option value="$PROJECT_DIR$/imagerite-client/src/reducers/index.js" />
         <option value="$PROJECT_DIR$/imagerite-client/package.json" />
         <option value="$PROJECT_DIR$/imagerite-client/src/config/devConfig.js" />
-        <option value="$PROJECT_DIR$/imagerite-client/src/actions/squawkActions.js" />
         <option value="$PROJECT_DIR$/imagerite-client/src/config/prodConfig.js" />
         <option value="$PROJECT_DIR$/config/prodConfig.js" />
         <option value="$PROJECT_DIR$/imagerite-client/.env.development" />
         <option value="$PROJECT_DIR$/imagerite-client/src/config/keys.js" />
         <option value="$PROJECT_DIR$/imagerite-client/src/App.css" />
         <option value="$PROJECT_DIR$/imagerite-client/src/App.js" />
-        <option value="$PROJECT_DIR$/imagerite-client/src/index.js" />
         <option value="$USER_HOME$/AppData/Local/Temp/materialize.css" />
-        <option value="$PROJECT_DIR$/imagerite-client/public/index.html" />
         <option value="$PROJECT_DIR$/squawk/squawkRoutes.js" />
-        <option value="$PROJECT_DIR$/routes/routeGenericDocument.js" />
         <option value="$PROJECT_DIR$/routes/routeSquawk.js" />
-        <option value="$PROJECT_DIR$/imagerite-client/src/services/squawkOperations.js" />
         <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/imagerite-client/src/components/SquawkList.js" />
+        <option value="$PROJECT_DIR$/imagerite-client/src/index.js" />
+        <option value="$PROJECT_DIR$/imagerite-client/src/components/AddSquawkForm.js" />
+        <option value="$PROJECT_DIR$/imagerite-client/src/components/AddSquawkComponent.js" />
+        <option value="$PROJECT_DIR$/imagerite-client/src/Root.js" />
+        <option value="$PROJECT_DIR$/imagerite-client/src/reducers/index.js" />
+        <option value="$PROJECT_DIR$/imagerite-client/src/components/FormModal.js" />
+        <option value="$PROJECT_DIR$/imagerite-client/public/index.html" />
+        <option value="$PROJECT_DIR$/routes/routeGenericDocument.js" />
+        <option value="$PROJECT_DIR$/imagerite-client/src/components/AddSquawk.js" />
+        <option value="$PROJECT_DIR$/imagerite-client/src/types/SquawkTypes.js" />
+        <option value="$PROJECT_DIR$/imagerite-client/src/reducers/squawkReducers.js" />
+        <option value="$PROJECT_DIR$/imagerite-client/src/services/squawkOperations.js" />
         <option value="$PROJECT_DIR$/imagerite-client/src/components/SquawkItem.js" />
+        <option value="$PROJECT_DIR$/imagerite-client/src/services/materialIconsList.js" />
+        <option value="$PROJECT_DIR$/imagerite-client/src/components/SquawkList.js" />
+        <option value="$PROJECT_DIR$/imagerite-client/src/components/IconButton.js" />
+        <option value="$PROJECT_DIR$/imagerite-client/src/components/IconSelector.js" />
+        <option value="$PROJECT_DIR$/imagerite-client/src/forms/AddSquawkForm.js" />
+        <option value="$PROJECT_DIR$/imagerite-client/src/actions/squawkActions.js" />
       </list>
     </option>
   </component>
@@ -441,10 +445,9 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
-    <option name="width" value="2576" />
-    <option name="height" value="1056" />
+    <option name="x" value="1913" />
+    <option name="width" value="1934" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -471,7 +474,20 @@
               <item name="imageRiteServer" type="b2602c69:ProjectViewProjectNode" />
               <item name="imageRiteServer" type="462c0819:PsiDirectoryNode" />
               <item name="imagerite-client" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imageRiteServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imageRiteServer" type="462c0819:PsiDirectoryNode" />
+              <item name="imagerite-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imageRiteServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imageRiteServer" type="462c0819:PsiDirectoryNode" />
+              <item name="imagerite-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="actions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="imageRiteServer" type="b2602c69:ProjectViewProjectNode" />
@@ -485,23 +501,33 @@
               <item name="imageRiteServer" type="462c0819:PsiDirectoryNode" />
               <item name="imagerite-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="forms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imageRiteServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imageRiteServer" type="462c0819:PsiDirectoryNode" />
+              <item name="imagerite-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="reducers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imageRiteServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imageRiteServer" type="462c0819:PsiDirectoryNode" />
+              <item name="imagerite-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="imageRiteServer" type="b2602c69:ProjectViewProjectNode" />
               <item name="imageRiteServer" type="462c0819:PsiDirectoryNode" />
+              <item name="imagerite-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="types" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imageRiteServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imageRiteServer" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="imageRiteServer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imageRiteServer" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="imageRiteServer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imageRiteServer" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="imageRiteServer" type="b2602c69:ProjectViewProjectNode" />
@@ -524,6 +550,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TEXT" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.13.0" />
+    <property name="js.last.introduce.type" value="CONST" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../songs" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -535,6 +562,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\scott\WebstormProjects\imageRiteServer\imagerite-client\src\forms" />
       <recent name="C:\Users\scott\WebstormProjects\imageRiteServer\imagerite-client\public\stylesheets" />
       <recent name="C:\Users\scott\WebstormProjects\imageRiteServer\imagerite-client\src" />
     </key>
@@ -567,7 +595,7 @@
       <option name="presentableId" value="Default" />
       <updated>1542487455679</updated>
       <workItem from="1542487457170" duration="48140000" />
-      <workItem from="1542992450635" duration="26014000" />
+      <workItem from="1542992450635" duration="84928000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1542565775626</created>
@@ -632,11 +660,18 @@
       <option name="project" value="LOCAL" />
       <updated>1542860664160</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="react announcements works">
+      <created>1543269914998</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1543269914998</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74154000" />
+    <option name="totallyTimeSpent" value="133068000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -655,19 +690,20 @@
       <window_info id="npm" order="1" sideWeight="0.5011013" side_tool="true" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49779737" visible="true" weight="0.186407" />
       <window_info id="Structure" order="3" sideWeight="0.50220263" side_tool="true" weight="0.186407" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="SVN Repositories" order="1" weight="0.32929516" />
-      <window_info anchor="bottom" id="TypeScript" order="2" weight="0.32929516" />
-      <window_info anchor="bottom" id="Version Control" order="3" weight="0.32929516" />
-      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.50039744" side_tool="true" weight="0.32929516" />
-      <window_info anchor="bottom" id="Terminal" order="5" sideWeight="0.49960256" visible="true" weight="0.32929516" />
-      <window_info anchor="bottom" id="Message" order="6" />
-      <window_info anchor="bottom" id="Find" order="7" weight="0.32929516" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.39977974" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="Run" order="11" weight="0.32929516" />
-      <window_info anchor="bottom" id="TODO" order="12" weight="0.32929516" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32929516" />
+      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="SVN Repositories" order="2" weight="0.32929516" />
+      <window_info anchor="bottom" id="TypeScript" order="3" weight="0.32929516" />
+      <window_info anchor="bottom" id="Version Control" order="4" weight="0.32929516" />
+      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50039744" side_tool="true" weight="0.32929516" />
+      <window_info anchor="bottom" id="Terminal" order="6" sideWeight="0.49960256" visible="true" weight="0.32929516" />
+      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="bottom" id="Find" order="8" weight="0.32929516" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.39977974" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="12" weight="0.32929516" />
+      <window_info anchor="bottom" id="TODO" order="13" weight="0.32929516" />
       <window_info anchor="right" id="Mongo Explorer" order="0" weight="0.3298887" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
@@ -676,21 +712,22 @@
     <layout-to-restore>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="npm" order="1" sideWeight="0.5011013" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49779737" visible="true" weight="0.186407" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.49779737" visible="true" weight="0.186407" />
       <window_info id="Structure" order="3" sideWeight="0.50220263" side_tool="true" weight="0.186407" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="SVN Repositories" order="1" weight="0.32929516" />
-      <window_info anchor="bottom" id="TypeScript" order="2" weight="0.32929516" />
-      <window_info anchor="bottom" id="Version Control" order="3" weight="0.32929516" />
-      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.50039744" side_tool="true" weight="0.32929516" />
-      <window_info anchor="bottom" id="Terminal" order="5" sideWeight="0.49960256" weight="0.32929516" />
-      <window_info anchor="bottom" id="Message" order="6" />
-      <window_info anchor="bottom" id="Find" order="7" visible="true" weight="0.32929516" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.39977974" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="Run" order="11" weight="0.32929516" />
-      <window_info anchor="bottom" id="TODO" order="12" weight="0.32929516" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32929516" />
+      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="SVN Repositories" order="2" weight="0.32929516" />
+      <window_info anchor="bottom" id="TypeScript" order="3" weight="0.32929516" />
+      <window_info anchor="bottom" id="Version Control" order="4" weight="0.32929516" />
+      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50039744" side_tool="true" weight="0.32929516" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="6" sideWeight="0.49960256" visible="true" weight="0.32929516" />
+      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="bottom" id="Find" order="8" weight="0.32929516" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.39977974" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="12" weight="0.32929516" />
+      <window_info anchor="bottom" id="TODO" order="13" weight="0.32929516" />
       <window_info anchor="right" id="Mongo Explorer" order="0" weight="0.3298887" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
@@ -733,7 +770,8 @@
     <MESSAGE value="1" />
     <MESSAGE value="3" />
     <MESSAGE value="squawk works" />
-    <option name="LAST_COMMIT_MESSAGE" value="squawk works" />
+    <MESSAGE value="react announcements works" />
+    <option name="LAST_COMMIT_MESSAGE" value="react announcements works" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -744,106 +782,16 @@
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/imagerite-client/src/forms/AddSquawkForm.js</url>
+          <line>84</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/imagerite-client/src/reducers/squawk.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imagerite-client/src/types/SquawkTypes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imagerite-client/src/actions/types.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imagerite-client/src/Root.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tutorial1/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="37" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imagerite-client/src/config/stgConfig.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imagerite-client/src/reducers/squawkReducers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#288#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imagerite-client/src/reducers/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imagerite-client/src/services/GeneralServices.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imagerite-client/src/actions/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imagerite-client/src/config/devConfig.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imagerite-client/src/actions/squawkActions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-616">
-          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/imagerite-client/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -877,13 +825,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../tutorial1/client/package.json">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/devConfig.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="54" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="54" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/keys.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -939,14 +880,14 @@
     <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/imagerite-client/src/App.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
-          <caret line="33" column="21" lean-forward="true" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -963,27 +904,10 @@
     <entry file="file://$PROJECT_DIR$/imagerite-client/public/stylesheets/twitter-theme.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/imagerite-client/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-          <folding>
-            <element signature="e#1#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/imagerite-client/node_modules/materialcss/material-css/material-css.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-6510">
           <caret line="1927" column="70" selection-start-line="1927" selection-start-column="66" selection-end-line="1927" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imagerite-client/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="26" column="46" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -994,30 +918,6 @@
             <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="22" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imagerite-client/public/stylesheets/materialize.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4761" column="18" selection-start-line="4764" selection-start-column="1" selection-end-line="4764" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imagerite-client/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#1#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/Announcements.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -1035,10 +935,79 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="73" column="26" selection-start-line="73" selection-start-column="26" selection-end-line="73" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imagerite-client/public/stylesheets/materialize.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="3401" column="26" selection-start-line="3401" selection-start-column="26" selection-end-line="3401" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imagerite-client/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="16" />
+          <folding>
+            <element signature="e#1#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imagerite-client/src/Root.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="7" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imagerite-client/src/actions/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/devConfig.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="54" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imagerite-client/src/reducers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="52" selection-start-line="1" selection-start-column="52" selection-end-line="1" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imagerite-client/src/components/FormModal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imagerite-client/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-27" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/squawk/squawkRoutes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="703">
-          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+          <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1051,44 +1020,129 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/routeGenericDocument.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="128" column="13" lean-forward="true" selection-start-line="126" selection-start-column="13" selection-end-line="128" selection-end-column="13" />
+        <state relative-caret-position="408">
+          <caret line="78" column="12" selection-start-line="78" selection-start-column="12" selection-end-line="78" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
+    <entry file="file://$PROJECT_DIR$/imagerite-client/src/components/AddSquawk.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="73" column="26" lean-forward="true" selection-start-line="73" selection-start-column="26" selection-end-line="73" selection-end-column="26" />
+        <state relative-caret-position="234">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imagerite-client/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imagerite-client/src/types/SquawkTypes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="52" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/imagerite-client/src/services/squawkOperations.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        <state relative-caret-position="478">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imagerite-client/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imagerite-client/src/services/materialIconsList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imagerite-client/src/components/SquawkItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="557">
+          <caret line="51" column="131" selection-start-line="51" selection-start-column="131" selection-end-line="51" selection-end-column="131" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/Announcements.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imagerite-client/src/reducers/squawkReducers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imagerite-client/src/components/IconButton.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/imagerite-client/src/components/SquawkList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+        <state relative-caret-position="544">
+          <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imagerite-client/src/components/SquawkItem.js">
+    <entry file="file://$PROJECT_DIR$/imagerite-client/src/forms/AddSquawkForm.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="52" column="105" lean-forward="true" selection-start-line="52" selection-start-column="105" selection-end-line="52" selection-end-column="105" />
+        <state relative-caret-position="-357">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imagerite-client/src/components/IconSelector.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="73" column="13" lean-forward="true" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imagerite-client/src/actions/squawkActions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="81" column="58" selection-start-line="81" selection-start-column="58" selection-end-line="81" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#129#0" expanded="true" />
           </folding>
         </state>
       </provider>

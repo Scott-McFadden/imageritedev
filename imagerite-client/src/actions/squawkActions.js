@@ -3,28 +3,33 @@ import {
     SELECT_SQUAWK,
     FETCH_SQUAWKS_BEGIN,
     FETCH_SQUAWKS_SUCCESS,
-    FETCH_SQUAWKS_FAIL
+    SQUAWKS_FAIL,
+    ADD_SQUAWK_SUCCESS,
+    SQUAWK_OPERATION_PENDING
 
 } from '../types/SquawkTypes';
 
-import {  getSquawks} from "../services/squawkOperations";
-import axios from "axios";
+import {getSquawks, addSquawkOp} from "../services/squawkOperations";
 import {debugLog } from "../services/GeneralServices";
+
+export let allSquawks = [];
+
 
 export const fetchSquawksBegin = () => ({
     type: FETCH_SQUAWKS_BEGIN
 });
 
-export const fetchSquawksSuccess = products => {
-    debugLog("products: ", products);
+export const fetchSquawksSuccess = squawks => {
+    debugLog("squawks: ", squawks);
+
     return  ({
         type: FETCH_SQUAWKS_SUCCESS,
-        payload: products
+        payload: squawks
     });
 }
 
-export const fetchSquawkFail = error => ({
-    type: FETCH_SQUAWKS_FAIL,
+export const squawkFail = error => ({
+    type: SQUAWKS_FAIL,
     payload:  error
 });
 
@@ -37,26 +42,50 @@ export function getAllSquawks()
             .then(data => {
                 debugLog("after call:" , data);
                 dispatch(fetchSquawksSuccess(data));
+                allSquawks = data;
                 return;
             })
             .catch(error =>
             {
                 console.log(error);
-                dispatch(fetchSquawkFail(error));
+                dispatch(squawkFail(error));
             });
     };
 }
 
+export function squawkOpPending(op) {
+    return ({
+        type: SQUAWK_OPERATION_PENDING,
+        payload: op
+    });
+}
+
+export function addSquawkSuccess(item) {
+    return ({
+        type: ADD_SQUAWK_SUCCESS,
+        payload: item
+    });
+}
+
+
+
 
 export function addSquawk( item )
 {
-    try {
-        const ret = axios.put("http://localhost:3015/squawk", item);
-        return ret;
+    return dispatch => {
+        dispatch(squawkOpPending('ADD'));
+        return addSquawkOp(item)
+            .then(data => {
+                dispatch(addSquawkSuccess(data));
+                allSquawks.push(data);
+                dispatch(fetchSquawksSuccess(allSquawks));
+            })
+            .catch(error => {
+                console.log(error);
+                dispatch(squawkFail(error));
+            });
     }
-    catch (err) {
-        debugLog("error=>", err);
-    }
+
 }
 
 
@@ -66,4 +95,4 @@ export const selectSquawk = squawk => {
         type: SELECT_SQUAWK,
         payload: squawk
     });
-}
+};

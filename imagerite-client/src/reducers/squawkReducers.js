@@ -1,6 +1,5 @@
 import {
     INVALIDATE_SQUAWK,
-    ADD_SQUAWK,
     UPDATE_SQUAWK,
     DELETE_SQUAWK,
     GET_SQUAWK,
@@ -10,7 +9,9 @@ import {
     LOAD_SQUAWKS,
     FETCH_SQUAWKS_BEGIN,
     FETCH_SQUAWKS_SUCCESS,
-    FETCH_SQUAWKS_FAIL
+    SQUAWKS_FAIL,
+    SQUAWK_OPERATION_PENDING,
+    ADD_SQUAWK_SUCCESS
 
 } from '../types/SquawkTypes';
 
@@ -22,11 +23,6 @@ export default function ( state = {} , action)
     switch (action.type) {
         case INVALIDATE_SQUAWK: {
             debugLog("INVALIDATE_SQUAWK called");
-            return state;
-        }
-        case ADD_SQUAWK: {
-            debugLog("ADD_SQUAWK called");
-
             return state;
         }
 
@@ -57,7 +53,7 @@ export default function ( state = {} , action)
                 current_Squawk: action.payload
             };
         }
-        case FETCH_SQUAWKS_FAIL: {
+        case SQUAWKS_FAIL: {
             debugLog("FETCH_SQUAWKS_FAIL called");
             return {
                 ...state,
@@ -76,8 +72,6 @@ export default function ( state = {} , action)
                 squawkLoading: false,
                 squawError: null
             }
-
-
         }
         case FETCH_SQUAWKS_BEGIN: {
             debugLog("FETCH_SQUAWKS_BEGIN called");
@@ -87,13 +81,37 @@ export default function ( state = {} , action)
                 squawkLoading: true,
                 squawError: null
             }
-
         }
 
         case LOAD_SQUAWKS: {
             debugLog('LOAD_SQUAWKS called');
             break;
         }
+
+        case SQUAWK_OPERATION_PENDING: {
+            debugLog("SQUAWK_OPERATION_PENDING called");
+            return {
+                ...state,
+                squawkItems: state.squawkItems || [],
+                squawkLoading: true,
+                squawError: null
+            }
+        }
+
+        case ADD_SQUAWK_SUCCESS: {
+            debugLog("ADD_SQUAWK_SUCCESS called");
+
+            let newSquawkList = state.squawkItems;
+            newSquawkList.push(action.payload);
+            return {
+                ...state,
+                squawkItems: state.newSquawkList,
+                squawkLoading: false,
+                squawError: null,
+                currentSquawk: action.payload
+            }
+        }
+
 
         default:{
 
